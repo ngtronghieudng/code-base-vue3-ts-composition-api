@@ -1,4 +1,39 @@
-# prj_zet_sdes_fe
+# Project Directory Structure
+
+```
+.
+├── .vscode                 # configs vscode
+├── cypress                 # e2e test
+├── public                  # asset static
+├── src                     # source files
+│   ├── apis                  # http requests
+│   ├── assets                # un-compiled files
+│   │   ├── fonts               # ...
+│   │   ├── images              # ...
+│   │   ├── sprite              # svg file
+│   │   └── styles              # main style component
+│   ├── components            # components for pages
+│   │   ├── common              # ...
+│   │   ├── layouts             # ...
+│   │   └── pages               # ...
+│   ├── composables           # reuse stateful logic
+│   ├── constants             # constants
+│   ├── entities              # interface for response http request
+│   ├── factory               # mock data
+│   ├── firebase              # init data and api for firebase only
+│   ├── layouts               # the layout for app
+│   ├── models                # interface for client
+│   ├── pages                 # main page, view of project
+│   ├── plugins               # vue plugin
+│   ├── stores                # state management
+│   ├── types                 # declare types for app
+│   ├── routers               # page route
+│   └── utils                 # utilities
+├── package.json            # ...
+└── README.md               # ...
+```
+
+# code-base-vue3-ts-composition-api
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -13,8 +48,8 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
 1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
 ## Customize configuration
