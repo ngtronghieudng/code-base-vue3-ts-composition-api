@@ -1,5 +1,6 @@
 {
-  "name": "prj_zet_sdes_fe",
+  "name": "code-base-vue3-ts-composition-api",
+  "author": "Hieu Nguyen <ngtronghieudng@gmail.com>",
   "version": "0.0.0",
   "private": true,
   "scripts": {
